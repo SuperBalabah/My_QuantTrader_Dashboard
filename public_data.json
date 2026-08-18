@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 13:42:37 (TST)",
+  "updated_at": "2026-08-18 14:27:46 (TST)",
   "market": "🇹🇼 純台股實戰量化交易系統 (100萬虛擬帳戶檔)",
   "status": "OPERATIONAL_VERIFIED",
   "window_mode_label": "🏆 實戰決策下單時段 (13:15 / 14:00)",
@@ -8,11 +8,11 @@
     "start_date": "2026-08-03",
     "start_date_label": "2026/08/03 啟動 (實戰第 16 天)",
     "initial": 1000000.0,
-    "current_equity": 1003481.79,
-    "net_profit": 3481.79,
-    "roi": 0.35,
+    "current_equity": 1004081.79,
+    "net_profit": 4081.79,
+    "roi": 0.41,
     "day1_fee": 598.5,
-    "annualized_roi": 0.35,
+    "annualized_roi": 0.41,
     "mdd": -9.92,
     "sharpe_ratio": 0.88,
     "sortino_ratio": 0.88,
@@ -22,7 +22,7 @@
     "short_cash_base": 300000.0,
     "short_cash_current": 300213.96,
     "short_cash_interest": 214.59,
-    "long_stock_val": 702395.15,
+    "long_stock_val": 702995.15,
     "long_unspent_cash": 872.67
   },
   "audited_in_sample_metrics": {
@@ -56,12 +56,12 @@
       "name": "富邦台50",
       "weight": "25%",
       "entry_price": 232.9,
-      "price": 239.9,
+      "price": 240.7,
       "shares": 750,
-      "value": 179925.0,
-      "unrealized_profit": 5250.0,
-      "unrealized_roi": 3.01,
-      "stop_price": 226.06,
+      "value": 180525.0,
+      "unrealized_profit": 5850.0,
+      "unrealized_roi": 3.35,
+      "stop_price": 226.11,
       "status": "持倉中 (LONG)",
       "signal": "HOLD",
       "strategy_param": "SMA50/SMA150 + 3.0x ATR"
@@ -170,8 +170,8 @@
     },
     {
       "date": "2026-08-18",
-      "equity": 1003481.79,
-      "stock_val": 703267.82,
+      "equity": 1004081.79,
+      "stock_val": 703867.82,
       "short_cash": 300213.96,
       "withdraw_cash": 0.0
     }
