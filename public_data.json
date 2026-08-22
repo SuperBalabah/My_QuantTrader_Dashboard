@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22 13:27:55 (TST)",
+  "updated_at": "2026-08-22 13:36:54 (TST)",
   "market": "🇹🇼 純台股實戰量化交易系統 (100萬虛擬帳戶檔)",
   "status": "OPERATIONAL_VERIFIED",
   "window_mode_label": "🏆 實戰決策下單時段 (13:15 / 14:00)",
@@ -8,22 +8,23 @@
     "start_date": "2026-08-03",
     "start_date_label": "2026/08/03 啟動 (實戰第 20 天)",
     "initial": 1000000.0,
-    "current_equity": 1008210.66,
-    "net_profit": 8210.66,
-    "roi": 0.82,
+    "current_equity": 1008067.94,
+    "net_profit": 8067.94,
+    "roi": 0.81,
     "day1_fee": 598.5,
-    "annualized_roi": 0.82,
-    "mdd": -10.14,
-    "sharpe_ratio": 0.87,
-    "sortino_ratio": 0.87,
-    "ann_calmar_ratio": 1.46,
-    "cum_calmar_ratio": 2.4,
-    "withdraw_cash_pool": 1550.49,
+    "annualized_roi": 0.81,
+    "mdd": -10.02,
+    "sharpe_ratio": 0.85,
+    "sortino_ratio": 0.86,
+    "ann_calmar_ratio": 1.43,
+    "cum_calmar_ratio": 2.34,
+    "defense_cash_total": 301820.28,
+    "withdraw_cash_pool": 1549.24,
     "short_cash_base": 300000.0,
     "short_cash_current": 300271.05,
     "short_cash_interest": 271.05,
     "long_stock_val": 530372.81,
-    "long_unspent_cash": 176016.32
+    "long_unspent_cash": 175874.85
   },
   "audited_in_sample_metrics": {
     "period": "2018-2024 (7年訓練集對照)",
@@ -191,10 +192,10 @@
     },
     {
       "date": "2026-08-20",
-      "equity": 1005074.9,
-      "stock_val": 704832.4,
+      "equity": 1006482.53,
+      "stock_val": 704690.94,
       "short_cash": 300242.5,
-      "withdraw_cash": 0.0
+      "withdraw_cash": 1549.09
     }
   ],
   "recent_trades": [

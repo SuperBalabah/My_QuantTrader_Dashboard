@@ -251,7 +251,7 @@
                 <div class="main-stat" style="color: #60a5fa;" id="long-stock-equity">NT$ --</div>
                 <div class="sub-stat">
                     <span>持倉市值: <strong id="long-stock-val">--</strong></span>
-                    <span>剩餘現金: <strong id="long-stock-cash">--</strong></span>
+                    <span>待命與平倉現金: <strong id="long-stock-cash">--</strong></span>
                 </div>
             </div>
 
@@ -262,7 +262,8 @@
                 </div>
                 <div class="main-stat stat-gold" id="short-base">NT$ 300,000</div>
                 <div class="sub-stat">
-                    <span>方法 A 已撥轉活存利潤池: <strong id="withdraw-pool">NT$ 0</strong></span>
+                    <span>30萬底金: <strong id="short-base-sub">NT$ 300,000</strong> (<span id="short-interest-sub">+NT$ 0</span>)</span>
+                    <span>方法 A 獲利撥轉池: <strong id="withdraw-pool">NT$ 0</strong></span>
                 </div>
             </div>
         </div>
@@ -421,10 +422,15 @@
                 document.getElementById('long-stock-cash').innerText = 'NT$ ' + (acc.long_unspent_cash || 0).toLocaleString();
 
                 // 30% 利潤撥轉池與底金 (含 1.75% 活存每日累計利息)
-                const shortTotal = acc.short_cash_current || acc.short_cash_base || 300000;
+                const defenseTotal = acc.defense_cash_total || ((acc.short_cash_current || 300000) + (acc.withdraw_cash_pool || 0));
+                const shortCurrent = acc.short_cash_current || acc.short_cash_base || 300000;
                 const shortInterest = acc.short_cash_interest || 0;
-                document.getElementById('short-base').innerText = 'NT$ ' + Math.round(shortTotal).toLocaleString();
-                document.getElementById('withdraw-pool').innerText = 'NT$ ' + (acc.withdraw_cash_pool || 0).toLocaleString() + (shortInterest > 0 ? ` (活存累計利息: +NT$ ${shortInterest.toFixed(1)})` : '');
+                const withdrawPool = acc.withdraw_cash_pool || 0;
+
+                document.getElementById('short-base').innerText = 'NT$ ' + Math.round(defenseTotal).toLocaleString();
+                document.getElementById('short-base-sub').innerText = 'NT$ ' + Math.round(shortCurrent).toLocaleString();
+                document.getElementById('short-interest-sub').innerText = (shortInterest > 0 ? `+NT$ ${shortInterest.toFixed(1)} 息` : '+NT$ 0 息');
+                document.getElementById('withdraw-pool').innerText = 'NT$ ' + withdrawPool.toLocaleString();
 
 
                 // 底部量化指標表格
