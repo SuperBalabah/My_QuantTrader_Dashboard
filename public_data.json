@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-11-02 22:18:35 (TST)",
+  "updated_at": "2026-11-03 20:44:56 (TST)",
   "market": "🇹🇼 純台股實戰量化交易系統 (100萬虛擬帳戶檔)",
   "status": "OPERATIONAL_VERIFIED",
   "window_mode_label": "🏆 實戰決策下單時段 (13:15 / 14:00)",
   "is_decision_window": true,
   "virtual_account_1m": {
     "start_date": "2026-08-03",
-    "start_date_label": "2026/08/03 啟動 (實戰第 92 天)",
+    "start_date_label": "2026/08/03 啟動 (實戰第 93 天)",
     "initial": 1000000.0,
-    "current_equity": 1031305.79,
-    "net_profit": 31305.79,
-    "roi": 3.13,
+    "current_equity": 1027727.35,
+    "net_profit": 27727.35,
+    "roi": 2.77,
     "day1_fee": 598.5,
-    "annualized_roi": 3.13,
-    "mdd": -9.56,
-    "sharpe_ratio": 0.88,
-    "sortino_ratio": 0.89,
-    "ann_calmar_ratio": 1.45,
-    "cum_calmar_ratio": 2.69,
-    "defense_cash_total": 305962.41,
-    "withdraw_cash_pool": 4662.02,
+    "annualized_roi": 2.77,
+    "mdd": -9.31,
+    "sharpe_ratio": 0.84,
+    "sortino_ratio": 0.87,
+    "ann_calmar_ratio": 1.42,
+    "cum_calmar_ratio": 2.63,
+    "defense_cash_total": 326424.31,
+    "withdraw_cash_pool": 25109.6,
     "short_cash_base": 300000.0,
-    "short_cash_current": 301300.39,
-    "short_cash_interest": 1300.39,
-    "long_stock_val": 269025.59,
-    "long_unspent_cash": 456317.78
+    "short_cash_current": 301314.71,
+    "short_cash_interest": 1314.71,
+    "long_stock_val": 0.0,
+    "long_unspent_cash": 701303.04
   },
   "audited_in_sample_metrics": {
     "period": "2018-2024 (7年訓練集對照)",
@@ -42,14 +42,14 @@
       "name": "元大高息低波",
       "weight": "35%",
       "entry_price": 59.68,
-      "price": 65.6,
-      "shares": 4101,
-      "value": 269025.59,
-      "unrealized_profit": 24271.34,
-      "unrealized_roi": 9.92,
-      "stop_price": 64.91,
-      "status": "持倉中 (LONG)",
-      "signal": "HOLD",
+      "price": 64.4,
+      "shares": 0,
+      "value": 0.0,
+      "unrealized_profit": 0.0,
+      "unrealized_roi": 0.0,
+      "stop_price": 0.0,
+      "status": "已平倉 (CASH)",
+      "signal": "WAIT",
       "strategy_param": "SMA20/SMA60 + 2.5x ATR"
     },
     {
@@ -57,7 +57,7 @@
       "name": "富邦台50",
       "weight": "25%",
       "entry_price": 232.9,
-      "price": 238.65,
+      "price": 230.55,
       "shares": 0,
       "value": 0.0,
       "unrealized_profit": 0.0,
@@ -72,7 +72,7 @@
       "name": "國泰高股息",
       "weight": "25%",
       "entry_price": 31.6,
-      "price": 34.8,
+      "price": 33.87,
       "shares": 0,
       "value": 0.0,
       "unrealized_profit": 0.0,
@@ -87,7 +87,7 @@
       "name": "台積電",
       "weight": "15%",
       "entry_price": 2363.04,
-      "price": 2330.0,
+      "price": 2295.0,
       "shares": 0,
       "value": 0.0,
       "unrealized_profit": 0.0,
@@ -532,6 +532,13 @@
       "stock_val": 725343.37,
       "short_cash": 301300.39,
       "withdraw_cash": 4662.02
+    },
+    {
+      "date": "2026-11-03",
+      "equity": 1027727.35,
+      "stock_val": 701303.04,
+      "short_cash": 301314.71,
+      "withdraw_cash": 25109.6
     }
   ],
   "recent_trades": [
@@ -604,6 +611,16 @@
       "shares": 44,
       "amount": 106069.52,
       "reason": "ATR動態止損觸發 (出場單價 NT$ 2420.0)"
+    },
+    {
+      "date": "2026-11-03",
+      "symbol": "00713.TW",
+      "name": "元大高息低波",
+      "type": "SELL",
+      "price": 64.84,
+      "shares": 4101,
+      "amount": 265410.92,
+      "reason": "ATR動態止損觸發 (出場單價 NT$ 64.84)"
     }
   ]
 }
