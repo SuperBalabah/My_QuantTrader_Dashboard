@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 00:45:07 (TST)",
+  "updated_at": "2026-11-25 23:31:22 (TST)",
   "market": "🇹🇼 純台股實戰量化交易系統 (100萬虛擬帳戶檔)",
   "status": "OPERATIONAL_VERIFIED",
   "window_mode_label": "🏆 實戰決策下單時段 (13:15 / 14:00)",
@@ -14,10 +14,10 @@
     "day1_fee": 598.5,
     "annualized_roi": 2.88,
     "mdd": -11.67,
-    "sharpe_ratio": 0.57,
-    "sortino_ratio": 0.59,
-    "ann_calmar_ratio": 0.72,
-    "cum_calmar_ratio": 1.36,
+    "sharpe_ratio": 0.56,
+    "sortino_ratio": 0.58,
+    "ann_calmar_ratio": 0.74,
+    "cum_calmar_ratio": 1.4,
     "defense_cash_total": 326766.4,
     "withdraw_cash_pool": 25136.45,
     "short_cash_base": 300000.0,
@@ -42,7 +42,7 @@
       "name": "元大高息低波",
       "weight": "35%",
       "entry_price": 59.68,
-      "price": 58.0,
+      "price": 59.0,
       "shares": 0,
       "value": 0.0,
       "unrealized_profit": 0.0,
@@ -57,7 +57,7 @@
       "name": "富邦台50",
       "weight": "25%",
       "entry_price": 228.81,
-      "price": 195.55,
+      "price": 203.15,
       "shares": 0,
       "value": 0.0,
       "unrealized_profit": 0.0,
@@ -72,7 +72,7 @@
       "name": "國泰高股息",
       "weight": "25%",
       "entry_price": 30.38,
-      "price": 28.05,
+      "price": 28.6,
       "shares": 0,
       "value": 0.0,
       "unrealized_profit": 0.0,
@@ -87,7 +87,7 @@
       "name": "台積電",
       "weight": "15%",
       "entry_price": 2363.04,
-      "price": 2030.0,
+      "price": 2150.0,
       "shares": 0,
       "value": 0.0,
       "unrealized_profit": 0.0,
@@ -637,6 +637,20 @@
       "stock_val": 701970.02,
       "short_cash": 301601.28,
       "withdraw_cash": 25134.06
+    },
+    {
+      "date": "2026-11-24",
+      "equity": 1028754.26,
+      "stock_val": 702003.38,
+      "short_cash": 301615.62,
+      "withdraw_cash": 25135.25
+    },
+    {
+      "date": "2026-11-25",
+      "equity": 1028803.15,
+      "stock_val": 702036.75,
+      "short_cash": 301629.96,
+      "withdraw_cash": 25136.45
     }
   ],
   "recent_trades": [
