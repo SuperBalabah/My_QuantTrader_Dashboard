@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 22:58:37 (TST)",
+  "updated_at": "2026-11-27 23:53:04 (TST)",
   "market": "🇹🇼 純台股實戰量化交易系統 (100萬虛擬帳戶檔)",
   "status": "OPERATIONAL_VERIFIED",
   "window_mode_label": "🏆 實戰決策下單時段 (13:15 / 14:00)",
@@ -157,8 +157,8 @@
     },
     {
       "date": "2026-08-13",
-      "equity": 1018528.21,
-      "stock_val": 718385.59,
+      "equity": 1018528.22,
+      "stock_val": 718385.6,
       "short_cash": 300142.63,
       "withdraw_cash": 0.0
     },
@@ -171,8 +171,8 @@
     },
     {
       "date": "2026-08-17",
-      "equity": 1014816.27,
-      "stock_val": 714616.58,
+      "equity": 1014816.28,
+      "stock_val": 714616.59,
       "short_cash": 300199.69,
       "withdraw_cash": 0.0
     },
